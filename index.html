@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon!</title> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@900&family=Alegreya:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            background-color: black;
+            color: #ffd140;
+            font-family: 'Alegreya', serif; /* Default font */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;    /* Center vertically */
+            min-height: 100vh;      /* Ensure body takes full viewport height */
+            text-align: center;       /* Center inline content like text */
+            padding: 20px; /* Add some padding for smaller screens */
+						line-height: 1.2;
+        }
+
+        .container {
+            max-width: 100%;
+        }
+
+        .logo {
+            display: block; /* Treat as block for centering and margin */
+            margin: 0 auto 20px auto; /* Center horizontally, add space below */
+            max-width: 80%;   /* Responsive width */
+            width: 300px;     /* Max size on larger screens - adjust as needed */
+            height: auto;     /* Maintain aspect ratio */
+        }
+
+        h1 {
+            font-family: 'Alegreya SC', serif; /* Header font */
+            font-size: 2.5em; /* Adjust size as needed */
+            font-weight: 400; /* Use the loaded weight */
+            margin-top: 0; /* Remove default browser margin */
+            color: #ffd140; /* Explicitly set color (though inherited) */
+        }
+
+				hr {
+					border-color: #ffd140;
+					margin-bottom: 12px;
+					margin-top: 4px;
+				}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/img/logo.svg" alt="My Store Logo" class="logo">
+        <h1>Coming Soon</h1>
+				<hr/>
+				<p>More info on Bluesky in the meantime...</p>
+				<a style="margin-top:20px; display: block;" href="https://bsky.app/profile/therandomtable.com"><img src="/img/bluesky.svg"/></a>
+    </div>
+</body>
+</html>
